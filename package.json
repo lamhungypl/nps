@@ -3,6 +3,7 @@
   "version": "5.10.0",
   "description": "All the benefits of npm scripts without the cost of a bloated package.json and limits of json",
   "main": "dist/index",
+  "type": "commonjs",
   "scripts": {
     "start": "nps",
     "test": "nps test",
