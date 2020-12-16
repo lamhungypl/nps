@@ -8,6 +8,7 @@
     "start": "nps",
     "test": "nps test",
     "build": "npm start build",
+    "prepare": "npm run build",
     "localstart": "npm start build && node ./dist/bin/nps.js",
     "precommit": "lint-staged && opt --in pre-commit --exec \"npm start validate\""
   },
